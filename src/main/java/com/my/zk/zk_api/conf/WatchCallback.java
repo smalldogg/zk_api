@@ -39,7 +39,7 @@ import java.util.concurrent.CountDownLatch;
 
 		/**
 		 * exists的回调方法
-		 *
+		 * 这里如果节点存在了，那么就去拿节点的内容
 		 * @param i
 		 * @param s
 		 * @param o

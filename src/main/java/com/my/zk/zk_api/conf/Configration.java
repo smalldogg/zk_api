@@ -19,6 +19,7 @@ public class Configration {
 		@Before
 		public void conn () throws IOException, InterruptedException {
 				zk  = ZKUtils.getConnection();
+
 		}
 
 		@After
